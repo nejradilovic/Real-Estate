@@ -1,0 +1,95 @@
+html {
+    background-color: #fdf1d3;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+iframe {
+    border: none;
+    margin: 0;
+    width: 100%;
+}
+
+body {
+    margin-top: 100px;
+}
+
+h3 {
+    font-family: sans-serif;
+    margin-left: 20px;
+}
+
+img {
+    max-width: 100%;
+}
+
+#stan, #kuca, #pp {
+    font-family: sans-serif; 
+}
+
+.kontejner{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px; 
+}
+
+.grid-item-stan {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    display: flex; 
+    justify-content: center;
+    flex-direction: column;
+}
+
+.grid-item-kuca {
+    background-color: powderblue;
+    padding: 20px;
+    text-align: center;
+    display: flex; 
+    justify-content: center;
+    flex-direction: column;
+}
+.grid-item-pp {
+    background-color: green;
+    padding: 20px;
+    text-align: center;
+    display: flex; 
+    justify-content: center;
+    flex-direction: column;
+}
+.informacije{
+    text-align: left;
+    margin: 10px 0;
+}
+.cijena{
+    text-align: right;
+}
+.button {
+    padding: 5px 10px;
+    background-color: #fdf1d3;
+}
+
+
+/* stil.css */
+
+
+#pretraga{
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 80px 50px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 10px;
+}

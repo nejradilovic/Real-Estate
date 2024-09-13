@@ -1,0 +1,65 @@
+html {
+    background-color: #fdf1d3;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+iframe {
+    border: none;
+    margin: 0;
+    width: 100%;
+}
+
+body {
+    margin-top: 100px;
+}
+
+img {
+    max-width: 200px;
+    max-height: 100px;
+    margin-left: 30px;
+}
+
+table {
+    margin-left: 30px;
+    width: auto;
+    border-collapse: collapse;
+    margin-top: 40px;
+}
+
+td {
+    padding: 5px;
+}
+
+label {
+    font-family: sans-serif;
+    display: block;
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 10px;
+    border: 0;
+    box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.04);
+    margin-bottom: 20px;
+    margin-left: 150px;
+}
+
+@media screen and (min-width: 500px) {
+    img {
+        float: left; 
+        margin: 0 20px 20px 0; 
+    }
+
+    table {
+        margin-left: 0; 
+    }
+
+    input {
+        margin-left: 0; 
+    }
+}

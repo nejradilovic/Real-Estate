@@ -1,0 +1,53 @@
+html{
+    background-color: #fdf1d3;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+iframe {
+    border: none;
+    margin: 0;
+    width: 100%;
+}
+
+body{
+    margin-top: 100px;
+}
+
+#loginForm {
+    display: flex;
+    flex-direction: column;
+    max-width: 380px;
+    margin: 0 auto;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 25px;
+    box-sizing: border-box;
+    border: 0;
+    box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.04);
+    width: 100%;
+}
+
+#loginForm button {
+    background-color:  #0066CC;
+    color: white;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    margin-top: 10px;
+}
+
+#loginForm button:hover {
+    background-color: #ff9900;
+    color: black;
+}

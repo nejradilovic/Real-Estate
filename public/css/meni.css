@@ -1,0 +1,33 @@
+html{
+    background-color: #fdf1d3;
+}
+
+.meni {
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin: 0 10px; 
+}
+
+a {
+    display: inline-block; 
+    padding: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ff9900;
+}
